@@ -1,0 +1,39 @@
+ {
+    "contacts": [
+        {
+            "id": 1,
+            "name": "Harry Potter",
+            "address": "The Cupboard Under The Stairs, 4 Privet Drive, Little Whinging, Surrey"
+        },
+        {
+            "id": 2,
+            "name": "Ron Weasley",
+            "address": "The Burrow" 
+        },
+        {
+            "id": 3,
+            "name": "Hermoine Granger",
+            "address": "Heathgate, Hampstead"
+        },
+        {
+            "id": 4,
+            "name": "Albus Dumbledore",
+            "address": "Hogwarts School of Witchcraft and Wizardry"
+        },
+        {
+            "id": 5,
+            "name": "Dudley Dursley",
+            "address": "4 Privet Drive, Little Whinging, Surrey"
+        },
+        {
+            "id": 6,
+            "name": "Ginny Weasley",
+            "address": "The Burrow"
+        },
+        {
+            "id": 7,
+            "name": "Crookshanks",
+            "address": "Hermoine's Bedroom, Hogwarts"
+        }
+    ]
+}

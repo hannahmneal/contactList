@@ -1,0 +1,45 @@
+body {
+    font-family: 'Abel', sans-serif;
+    /* background-image: url("https://www.publicdomainpictures.net/pictures/60000/nahled/metalic-background.jpg"); */
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6-XUPA_CKCzWrzOiSvlyrlstMC4mqjaoAYfk4TvEDsa2hflzuFg"); */
+    background-color: #e36f76; 
+}
+
+img {
+    margin-top: 0%;
+    margin-left: 74%;
+}
+
+h1 {
+    margin-top: 10%;
+    color: #30305c;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Major Mono Display', monospace;
+}
+
+#display-container {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    font-family: 'Abel', sans-serif;
+}
+
+#first-name-input, #last-name-input , #phone-input {
+    margin: 3px;
+    font-size: 16px;
+    font-family: 'Abel', sans-serif;
+}
+
+#submit-form-btn {
+    margin: 3px;
+    font-size: 11px;
+    font-family: 'Abel', sans-serif;
+}
+
+#contact-collection-container {
+    border: 2px dashed white;
+
+}
+
