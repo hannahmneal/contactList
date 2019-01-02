@@ -9,3 +9,5 @@ import contact from "./contact"
 import contactCollection from "./contactCollection"
 
 console.log("contactList.js");
+
+contactCollection.contactsFetch()
