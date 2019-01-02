@@ -1,3 +1,6 @@
+/* See "CSS Variables and Modules" in Book-4 for import instructions*/
+
+
 body {
     font-family: 'Abel', sans-serif;
     /* background-image: url("https://www.publicdomainpictures.net/pictures/60000/nahled/metalic-background.jpg"); */
@@ -25,7 +28,7 @@ h1 {
     flex-flow: column nowrap;
     font-family: 'Abel', sans-serif;
 }
-
+/*Change these to classes (style-input-fields) and grab styling that way*/
 #first-name-input, #last-name-input , #phone-input {
     margin: 3px;
     font-size: 16px;
