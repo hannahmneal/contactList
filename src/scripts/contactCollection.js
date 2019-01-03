@@ -26,3 +26,9 @@ const contactData = {
 //     }))
 
 export default contactData
+
+//---------------------------- "Scrap Paper" for Fetch Function -------------------------------------------------
+// (To test code, highlight code and press "option/alt" key on keyboard and move code block up or down within contactData function)
+
+
+//-----------------------------------------------------------------------------
