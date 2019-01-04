@@ -44,8 +44,6 @@ let submitBtn = document.getElementById("submit-form-btn").addEventListener("cli
 
 
 
-export default submitBtn
-
 
 
 
