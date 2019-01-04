@@ -38,8 +38,13 @@ let submitBtn = document.getElementById("submit-form-btn").addEventListener("cli
     console.log(firstNameInput.value, lastNameInput.value, addressInput.value); // Works!
 })
 
+//------------------------------------------------------------------------------
+//Each new contact is a new object in the contactData array.
+//------------------------------------------------------------------------------
 
 
+
+export default submitBtn
 
 
 
