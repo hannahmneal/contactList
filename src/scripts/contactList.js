@@ -29,12 +29,28 @@ contactCollection.contactsFetch()
 //Each new contact is a new object in the contactData array.
 //------------------------------------------------------------------------------
 
-// // contactData [
-// let formObject = {
-//     formFirstName: "",
-//     formLastName:  "",
-//     formAddress: ""
+
+// contactData []
+let newPerson = {
+    formFirstName: firstNameInput.value,
+    formLastName: lastNameInput.value,
+    formAddress: address.value
+}
+
+const handlePeople = function() {
+    // for each object in "contacts", check existence
+        // check existence within the forEach
+        // if(newPerson === )
+
+        // //array.forEach(object => {
+        //     if statement
+        }
+
+
+// if contactExists {
+//     then alert = "contact exists"
+// } else {
+//     POST (call addNewPerson and pass newPerson in as arg)
 // }
-// ]
 
 

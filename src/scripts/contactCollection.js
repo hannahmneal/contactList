@@ -19,6 +19,19 @@ const contactData = {
         })
     }
 }
+
+// Add a POST here
+
+const addNewPerson = (newPerson) => {
+   return fetch("http://localhost:8088/contacts", {
+    method: "POST",
+    headers: {
+        "Content-Type": "application/json",
+    },
+    body: JSON.stringify(newPerson)
+    })
+}
+
 //------------------------------------------------------------------------------------
 //NOTE: Move this section to contact.js
 
