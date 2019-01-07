@@ -27,13 +27,16 @@ contactCollection.contactsFetch()
 
 // contactData = [ {id,name,address}, {...}]
 
-const searchContact() = {
-    if()
-}
+//------------------------------------------------------------------------------
+//Each new contact is a new object in the contactData array.
+//------------------------------------------------------------------------------
 
+// // contactData [
+// let formObject = {
+//     formFirstName: "",
+//     formLastName:  "",
+//     formAddress: ""
+// }
+// ]
 
-// const userInput
-//  if (userInputFirstName === contactData.name) {
-    // display the matching contact (the whole contact object, not just the matching name)
-//}
 
