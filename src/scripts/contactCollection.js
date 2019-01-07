@@ -19,6 +19,8 @@ const contactData = {
         })
     }
 }
+//------------------------------------------------------------------------------------
+//NOTE: Move this section to contact.js
 
 let contactsDiv = document.querySelector("#contact-collection-container")
 
@@ -31,3 +33,4 @@ contactData.contactsFetch().then(contact => {
 });
 
 export default contactData
+//-------------------------------------------------------------------------------------

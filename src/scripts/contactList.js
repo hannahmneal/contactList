@@ -14,8 +14,6 @@ console.log("contactList.js");
 //---------------------------------------------------------------------------------------------------------
 contactCollection.contactsFetch()
 
-// GET, POST, DELETE functions from contactCollection
-
 // Variables:
 // searchContact        Takes the value of user's form input and sends to contactCollection as a GET. Database is checked for objects and properties === to user's input.
     // modifyContact    Follow-up function/conditional for searchContact: if no match found, proceed with createNewContact. If a match is found, provide option to modify contact.
