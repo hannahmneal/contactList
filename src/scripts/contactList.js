@@ -14,8 +14,6 @@ console.log("contactList.js");
 //---------------------------------------------------------------------------------------------------------
 contactCollection.contactsFetch()
 
-// GET, POST, DELETE functions from contactCollection
-
 // Variables:
 // searchContact        Takes the value of user's form input and sends to contactCollection as a GET. Database is checked for objects and properties === to user's input.
     // modifyContact    Follow-up function/conditional for searchContact: if no match found, proceed with createNewContact. If a match is found, provide option to modify contact.
@@ -31,12 +29,28 @@ contactCollection.contactsFetch()
 //Each new contact is a new object in the contactData array.
 //------------------------------------------------------------------------------
 
-// // contactData [
-// let formObject = {
-//     formFirstName: "",
-//     formLastName:  "",
-//     formAddress: ""
+
+// contactData []
+let newPerson = {
+    formFirstName: firstNameInput.value,
+    formLastName: lastNameInput.value,
+    formAddress: address.value
+}
+
+const handlePeople = function() {
+    // for each object in "contacts", check existence
+        // check existence within the forEach
+        // if(newPerson === )
+
+        // //array.forEach(object => {
+        //     if statement
+        }
+
+
+// if contactExists {
+//     then alert = "contact exists"
+// } else {
+//     POST (call addNewPerson and pass newPerson in as arg)
 // }
-// ]
 
 
