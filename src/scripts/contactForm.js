@@ -10,13 +10,14 @@
 //-----------------------------------------------------------------------------
 
 import contactCollection from "./contactCollection"
+import contactData from "./contactCollection";
 console.log("contactForm.js");
 
 let createForm = document.getElementById("display-container");
 createForm.innerHTML= `
-<input id="first-name-input" type="text" placeholder="First Name">
-<input id="last-name-input" type="text" placeholder="Last Name">
-<input id="address-input" type="text" placeholder="Address">
+<input id="first-name-input" class="input" type="text" placeholder="First Name">
+<input id="last-name-input" class="input" type="text" placeholder="Last Name">
+<input id="address-input" class="input" type="text" placeholder="Address">
 <button id="submit-form-btn">Submit</button>`
 
 //------------------------------------------------------------------------------
@@ -30,26 +31,25 @@ createForm.innerHTML= `
 // displayContainer.appendChild(submitButton);
 //------------------------------------------------------------------------------
 
-let submitBtn = document.getElementById("submit-form-btn").addEventListener("click", function(event) {
-    // let userInput = document.querySelectorAll("input")   //Returns undefined when logged
-    let firstNameInput = document.getElementById("first-name-input");   //This works.
-    let lastNameInput = document.getElementById("last-name-input");
-    let addressInput = document.getElementById("address-input");
-    console.log(firstNameInput.value, lastNameInput.value, addressInput.value); // Works!
-})
+    let submitForm = document.getElementById("submit-form-btn").addEventListener("click", function(event) {
+        let formFields = document.querySelectorAll("#input");  //This works for all three boxes.
+        console.log(formFields.value);  // Returns the value for all three form inputs.
+    })
+
+    // let submitForm = document.getElementById("submit-form-btn").addEventListener("click", function(event) {
+    //     // let userInput = document.querySelectorAll("input")   //Returns undefined when logged
+    //     let firstNameInput = document.getElementById("first-name-input");   //This works.
+    //     let lastNameInput = document.getElementById("last-name-input");
+    //     let addressInput = document.getElementById("address-input");
+    //     console.log(firstNameInput.value, lastNameInput.value, addressInput.value); // Works!
+    // })
 
 //------------------------------------------------------------------------------
 //Each new contact is a new object in the contactData array.
 //------------------------------------------------------------------------------
 
+//------------------------------------------------------------------------------
+// POST new contact in form to the database.
+//------------------------------------------------------------------------------
 
-
-export default submitBtn
-
-
-
-
-
-
-
-
+export default submitForm

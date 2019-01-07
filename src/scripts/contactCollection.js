@@ -13,11 +13,21 @@ const contactData = {
         return fetch("http://localhost:8088/contacts")
         .then(contact => contact.json())
         .then(parsedContacts => {
-            // console.log(parsedContacts);
-
+            console.log(parsedContacts);
             //GET, POST, DELETE functions in contactList
+            return parsedContacts;
         })
     }
 }
+
+let contactsDiv = document.querySelector("#contact-collection-container")
+
+contactData.contactsFetch().then(contact => {
+    contact.forEach(contacts => {
+        contactsDiv.innerHTML += `<h4>${contacts.firstName}</h4>`
+        contactsDiv.innerHTML += `<h4> ${contacts.lastName}</h4>`
+        contactsDiv.innerHTML += `<p>${contacts.address}</p>`
+    })
+});
 
 export default contactData

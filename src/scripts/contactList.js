@@ -17,15 +17,26 @@ contactCollection.contactsFetch()
 // GET, POST, DELETE functions from contactCollection
 
 // Variables:
-// searchContact        Takes the value of user's form input and sends to contactCollection as a GET. Database is checked for objects and properties === to user's input. 
-    // modifyContact    Follow-up function/conditional for searchContact: if no match found, proceed with createNewContact. If a match is found, provide option to modify contact.    
+// searchContact        Takes the value of user's form input and sends to contactCollection as a GET. Database is checked for objects and properties === to user's input.
+    // modifyContact    Follow-up function/conditional for searchContact: if no match found, proceed with createNewContact. If a match is found, provide option to modify contact.
 // addNewContact     Takes the value of user's form input and sends it to contactCollection as a POST.
 // deleteContact        "" DELETE request.
 //---------------------------------------------------------------------------------------------------------
 
-// HN 12-3-18 20:00 CURRENT GOAL: Simply display one object property value from the contactData array (index, name, id, address, etc.) in the console. 
+// HN 12-3-18 20:00 CURRENT GOAL: Simply display one object property value from the contactData array (index, name, id, address, etc.) in the console.
 
 // contactData = [ {id,name,address}, {...}]
 
-const searchContact 
+//------------------------------------------------------------------------------
+//Each new contact is a new object in the contactData array.
+//------------------------------------------------------------------------------
+
+// // contactData [
+// let formObject = {
+//     formFirstName: "",
+//     formLastName:  "",
+//     formAddress: ""
+// }
+// ]
+
 
