@@ -27,5 +27,13 @@ contactCollection.contactsFetch()
 
 // contactData = [ {id,name,address}, {...}]
 
-const searchContact = "";
+const searchContact() = {
+    if()
+}
+
+
+// const userInput
+//  if (userInputFirstName === contactData.name) {
+    // display the matching contact (the whole contact object, not just the matching name)
+//}
 

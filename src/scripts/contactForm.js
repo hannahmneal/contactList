@@ -10,6 +10,7 @@
 //-----------------------------------------------------------------------------
 
 import contactCollection from "./contactCollection"
+import contactData from "./contactCollection";
 console.log("contactForm.js");
 
 let createForm = document.getElementById("display-container");
@@ -30,24 +31,32 @@ createForm.innerHTML= `
 // displayContainer.appendChild(submitButton);
 //------------------------------------------------------------------------------
 
-let submitBtn = document.getElementById("submit-form-btn").addEventListener("click", function(event) {
-    // let userInput = document.querySelectorAll("input")   //Returns undefined when logged
-    let firstNameInput = document.getElementById("first-name-input");   //This works.
-    let lastNameInput = document.getElementById("last-name-input");
-    let addressInput = document.getElementById("address-input");
-    console.log(firstNameInput.value, lastNameInput.value, addressInput.value); // Works!
-})
+// let formObject = {
+//     formId: "",
+//     formFirstName: "",
+//     formLastName:  ""
+//     formAddress: ""
+// }
+
+    let submitForm = document.getElementById("submit-form-btn").addEventListener("click", function(event) {
+        let userInput = document.querySelectorAll("#input")  //This works for all three boxes.
+        console.log(userInput.value);  // Returns the value for all three form inputs.
+    });
 
 //------------------------------------------------------------------------------
 //Each new contact is a new object in the contactData array.
 //------------------------------------------------------------------------------
 
+//------------------------------------------------------------------------------
+// POST new contact in form to the database.
+//------------------------------------------------------------------------------
 
 
 
 
+// contactData.forEach(contactEvent)
+// console.log(//The event that matches the value the user typed into the search box
+//     ;)
 
 
-
-
-
+// export default submitBtn
