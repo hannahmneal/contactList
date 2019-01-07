@@ -19,6 +19,7 @@ createForm.innerHTML= `
 <input id="last-name-input" class="input" type="text" placeholder="Last Name">
 <input id="address-input" class="input" type="text" placeholder="Address">
 <button id="submit-form-btn">Submit</button>`
+//Try separating button from input fields
 
 //------------------------------------------------------------------------------
 // Alternative code for button:
@@ -33,6 +34,7 @@ createForm.innerHTML= `
 
     let submitForm = document.getElementById("submit-form-btn").addEventListener("click", function(event) {
         let formFields = document.querySelectorAll("#input");  //This works for all three boxes.
+
         console.log(formFields.value);  // Returns the value for all three form inputs.
     })
 
